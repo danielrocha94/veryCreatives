@@ -80,7 +80,4 @@ class DueDateCalculator
   end
 end
 
-objclass = DueDateCalculator.new
-date = DateTime.new(2015, 12, 11, 16)
-#puts date.strftime("%A, %d/%m/%y %r")
-objclass.calculate_due_date(date, 83)
+
